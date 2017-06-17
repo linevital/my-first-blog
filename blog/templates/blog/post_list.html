@@ -3,11 +3,20 @@
    <title>line vital</title>
    </head>
    <body>
-    <div><h1><a href="">LINE VITAL</a></h1>
+    <div>
+    	<h1><a href="">LINE VITAL</a></h1>
     </div>
     <p>CRÔNICAS DE UMA NAMORADA IRONICA</p>
-    <P>HISTÓTIA 1</P>
+
+ {% for post in posts %}
+<!--     <div>
+       <p>publicado: {{ post.published_date }}</p>
+        <h1><a href="">{{ post.title }}</a></h1>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </div> -->
+{% endfor %
+    <!-- <P>HISTÓTIA 1</P>
     <P>Certo dia.... história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história história</P>
-    <h1>NEM SEI</h1>
+    <h1>NEM SEI</h1> -->
     <body>
 </html>
